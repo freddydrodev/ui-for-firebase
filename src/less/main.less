@@ -1,0 +1,43 @@
+@import './reset';
+@import './utils';
+body {
+	font-size: 18px;
+	background-color: rgb(245, 247, 248) !important;
+}
+
+.ant-layout {
+	.bg-transparent;
+}
+
+// .ant-btn-danger {
+// 	background-color: #ff5e6c !important;
+// 	color: white !important;
+// }
+.ant-badge-count {
+	box-shadow: 0 0 0 3px @main-background !important;
+}
+.ant-card-head {
+	.border-bottom-0;
+	.bg-transparent;
+}
+.ps__rail-y .ps__thumb-y {
+	width: 4px;
+	.rounded-0;
+}
+.ant-btn-success {
+	color: @success-color !important;
+}
+.ant-btn-success:hover {
+	background-color: @success-color !important;
+	color: white !important;
+}
+.shadow-input {
+	.ant-input {
+		.border-0;
+		.default-shadow;
+	}
+	.ant-input:focus {
+		.border-0;
+		.default-shadow-hover;
+	}
+}
